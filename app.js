@@ -19,7 +19,7 @@ app.use("/" , userRoutes);
 app.use("/" , adminRoutes);
 
 
-
-app.listen(8000 , () => {
+const PORT = process.env.PORT || 8000;
+app.listen(PORT , () => {
     console.log("App Is Running On 8000.");
 })
