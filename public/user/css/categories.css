@@ -1,0 +1,381 @@
+body{
+  margin-top: 70px !important;
+}
+
+
+
+/* -----------------------nav------------------------ */
+.image {
+      display: block;
+      margin: auto;
+  }
+  .red_color_svg.path {
+    fill: red;
+ }
+  .box {
+      margin-top: 10%;
+  }
+  
+  .hm-gradient {
+      background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  }
+  .navbar .dropdown-menu a:hover {
+      color: #616161 !important;
+  }
+  .darken-grey-text {
+      color: #2E2E2E;
+  }
+  
+
+.page-footer,
+ .navCol{
+    background-color: #007bff;
+}
+/* -----------------------nav------------------------ */
+
+
+/* -----------------------Side Bar------------------------ */
+nav.sidebar {
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }
+
+.bkgnd {
+    background-color: #d9edf7;
+    color:#428bca;
+}
+
+.colsm12{
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    float: left;
+}
+/* -----------------------Side Bar------------------------ */
+
+.simImg{
+ 
+  width: 100%;
+  height: auto;
+
+}
+.simImg:hover{
+ 
+  width: 100%;
+  height: auto;
+
+  
+}
+.simImg:hover p{
+  background: #ffffff;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+}
+
+.pStyle {
+  text-align: center; 
+  font-weight: bold ; 
+  margin-top: -58% ;
+  font-size: 20px; 
+  color: #8c8c8c;
+}
+
+.pStyle1{
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  color: #8c8c8c;
+}
+
+
+.bg-blue {
+  background: linear-gradient(45deg, #1548a8, #5a95ec);
+}
+
+.back-green {
+  background: linear-gradient(45deg, #75a815, #a6ff00)
+}
+
+.text-green {
+  color: #75a815; 
+}
+
+.back-blue {
+  background: linear-gradient(45deg, #1548a8, #5a95ec)
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  background: linear-gradient(52deg, rgba(33,147,176,1) 8%, rgba(109,213,237,1) 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa !important;
+}
+
+.search-bar {
+  height: 29px !important
+}
+
+.back-grey {
+  background-color: #e6e6e6;
+}
+
+.di-styl {
+ margin-top: 4%;
+}
+
+
+.small-screen-filter {
+  display: none;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .filter-button {
+    font-size: 0.9rem;
+    padding: 1rem 2.4rem;
+  }
+
+  
+
+  .large-screen-filter {
+    display: none;
+  }
+
+  .small-screen-filter {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .filter-button {
+    font-size: 0.2rem !important;
+    padding: 0.rem 1.4rem !important;
+  } 
+}
+
+
+
+ @media (min-width: 320px) and (max-width: 576px) {
+   
+    nav.sidebar:hover + .main{
+      margin-left: 200px;
+    }
+
+    .search-bar {
+      height: 20px !important;
+    }
+   
+
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    
+    nav.sidebar a{
+      padding-right: 13px;
+    }
+
+   .sideNav > li:first-child {
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .sideNav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .sideNav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    nav.sidebar, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+    .navbar-inverse .sideNav .open .dropdown-menu>li>a {
+      color: #777;
+    }
+
+    nav.sidebar{
+      width: 200px;
+      height: 100%;
+      margin-left: -160px;
+      float: left;
+      margin-bottom: 0px;
+    }
+
+    nav.sidebar li {
+      width: 100%;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+  }
+   
+  @media (min-width: 1330px) {
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .sideNav .open .dropdown-menu>li>a:hover, nav.sidebar .sideNav .open .dropdown-menu>li>a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  .sideNav > li:first-child {
+      border-top: 1px #e5e5e5 solid;
+    }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+
+  
+  
+  
+  
+  .btnMag{
+    border-radius: 25px !important;
+    padding: 12px 20px 12px 20px !important;
+  }
+
+  #left {
+  margin-left: 20%;
+  }
+  
+  .container-fluid { max-width: 1200px; }
+
+
+[class*="row"] {
+	margin-bottom: 1em;
+  justify-content: center;
+  box-shadow: none;
+}
+
+[class*="col-"] {
+	box-shadow: none;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+}
+
+  
+  
+ 
+ 
+  @media screen and (max-width: 1275px) {
+    #left{
+      padding: 3% !important;
+      margin-top: -7%;
+      
+    }
+    #right{
+      padding: 3% !important;
+      margin-top: -7%;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .di-styl {
+      margin-top: 7%;
+    }
+    #left{
+      padding: 3% !important;
+     margin-top: 0%;
+     margin-left: 23%;
+    }
+    #right{
+      padding: 3% !important;
+      margin-top: 0%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .di-styl {
+      margin-top: 14%;
+    }
+    #left{
+      padding: 3% !important;
+     margin-top: 10%;
+     margin-left: 31%;
+    }
+    #right{
+      padding: 3% !important;
+      margin-top: 10%;
+    }
+  }
+ 
+ 
