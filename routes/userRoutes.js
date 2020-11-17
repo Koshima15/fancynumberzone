@@ -15,10 +15,10 @@ Routes.get("/contactUs" , (req,res,next) => {
     res.render("userView/contactUs")
 })
 
-Routes.get("/cart" , (req,res,next) => {
-    console.log(req.body);
-    res.render("userView/cart")
-})
+// Routes.get("/cart" , (req,res,next) => {
+//     console.log(req.body);
+//     res.render("userView/cart")
+// })
 
 
 module.exports = Routes;
